@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: door-bell
+  rabbitmq:
+    host: collie-01.lmq.cloudamqp.com
+    port: 5672
+    username: cyxwlbyr
+    password: ${RABBIT_PASSWORD}
+
